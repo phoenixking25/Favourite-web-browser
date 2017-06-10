@@ -1,0 +1,1 @@
+CREATE TABLE `browser`.`user` ( `index` INT NOT NULL AUTO_INCREMENT , `name` TEXT NOT NULL , `email` VARCHAR NOT NULL , `reason` TEXT NOT NULL , `browser` TEXT NOT NULL ,`date` DATE, `time` TIME, PRIMARY KEY (`index`)) ENGINE = InnoDB;
